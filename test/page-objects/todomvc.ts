@@ -1,6 +1,6 @@
 import { element, ElementFinder, by } from 'protractor';
 
-export default class TodoMvc {
+export class TodoMvc {
   relativeUrl: string = '/examples/react';
 
   clearCompletedButton: ElementFinder = element(by.className('clear-completed'));
