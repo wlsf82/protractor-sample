@@ -16,9 +16,9 @@ export let config: Config = {
       args: [
         '--headless',
         '--disable-gpu',
-        '--window-size=1280,1024'
-      ]
-    }
+        '--window-size=1280,1024',
+      ],
+    },
   },
   baseUrl: 'http://todomvc.com',
   specs: ['./specs/sample.spec.js'],
