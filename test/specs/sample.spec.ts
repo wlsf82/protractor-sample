@@ -1,10 +1,9 @@
 import * as helper from 'protractor-helper';
-
 import { browser, element, ElementFinder, by } from 'protractor';
 
 describe('protractor with typescript typings', () => {
   const todoList: ElementFinder = element(by.className('todo-list'));
-  const someText: String = 'Foo';
+  const someText: string = 'Foo';
 
   beforeEach(() =>  {
     const newTodoField: ElementFinder = element(by.className('new-todo'));
