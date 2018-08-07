@@ -1,0 +1,23 @@
+{
+  "name": "protractor-sample",
+  "version": "1.0.0",
+  "description": "sample of protractor tests using typescript",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "rm -rf tmp && npm run tsc && webdriver-manager update && protractor tmp/test/protractor.conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "typescript"
+  ],
+  "author": "Walmyr Filho <limaesilva@qelp.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.0",
+    "protractor-helper": "^3.3.5",
+    "typescript": "^3.0.1"
+  }
+}
