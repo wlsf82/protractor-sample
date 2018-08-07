@@ -1,10 +1,10 @@
 import * as helper from 'protractor-helper';
 import { browser } from 'protractor';
 
-import TodoMvcPage from '../page-objects/todomvc';
+import TodoMvc from '../page-objects/todomvc';
 
 describe('protractor with typescript typings', () => {
-  const todoMvcPage = new TodoMvcPage();
+  const todoMvcPage = new TodoMvc();
   const someText: string = 'Foo';
 
   beforeEach(() =>  {
