@@ -8,7 +8,7 @@ describe('protractor with typescript typings', () => {
   beforeEach(() =>  {
     const newTodoField: ElementFinder = element(by.className('new-todo'));
 
-    browser.get('/examples/react')
+    browser.get('/examples/react');
     helper.fillFieldWithTextWhenVisibleAndPressEnter(newTodoField, someText);
     helper.waitForTextToBePresentInElement(todoList, someText);
   });
