@@ -4,7 +4,7 @@
   "description": "sample of protractor tests using typescript",
   "scripts": {
     "tsc": "tsc",
-    "test": "rm -rf tmp && npm run tsc && webdriver-manager update && protractor tmp/test/protractor.conf.js"
+    "test": "rm -rf tmp && npm run tsc && webdriver-manager update --gecko false && protractor tmp/test/protractor.conf.js"
   },
   "keywords": [
     "protractor",
