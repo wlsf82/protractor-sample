@@ -1,7 +1,7 @@
 import * as helper from 'protractor-helper';
 import { browser } from 'protractor';
 
-import { TodoMvc as TodoMvcPage } from '../page-objects/todomvc';
+import { TodoMvc as TodoMvcPage } from '../page-objects/TodoMvc';
 
 describe('protractor with typescript typings', () => {
   const todoMvcPage = new TodoMvcPage();
