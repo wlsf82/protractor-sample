@@ -17,7 +17,7 @@ describe('protractor with typescript typings', () => {
     todoList.getText().then(text => expect(text).toEqual(someText));
   });
 
-  it('show not show the todo list after clicking toggle all and clearing completed', () => {
+  it('show not show the todo list after clicking toggle all and clearing completed items', () => {
     const toggleAllButton: ElementFinder = element(by.className('toggle-all'));
     const clearCompletedButton: ElementFinder = element(by.className('clear-completed'));
 
