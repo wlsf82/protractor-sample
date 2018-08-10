@@ -10,7 +10,7 @@
     "protractor",
     "typescript"
   ],
-  "author": "Walmyr Filho <limaesilva@qelp.com>",
+  "author": "Walmyr Filho <wlsf82@gmail.com> (http://walmyr-filho.com)",
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^2.8.8",
